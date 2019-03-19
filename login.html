@@ -486,7 +486,7 @@
         		  <hr/>
         		  <h6><span>字词验证</span><img src="img/dian.png"/></h6>
         		  <ul>
-        		  	   <li><input id="box02" class="box02"></li>
+        		  	   <li><input id="box02" type="text" class="box02"></li>
         		  	   <li><input id="text01" type="button" value="Refresh"/></li>
         		  	   <li><input id="text02" type="text" placeholder="请输入验证码" /><span id="specialSpan"></span></li>
         		  </ul>
@@ -502,20 +502,20 @@
         		      <input class="text04" type="radio" name="a" >女士
         		      <input class="text04" type="radio" name="a" >小姐
         		  </div>
-        		  <h6><span>姓(中文)</span><img src="img/dian.png"/></h6>
-        		 <input type="text" class="inputBig" />
-        		 <h6><span>名(中文)</span><img src="img/dian.png"/></h6>
-        		 <input type="text" class="inputBig" />
+        		  <h6><span>姓名(中文)</span><img src="img/dian.png"/></h6>
+              <input id="userId" type="text" class="inputBig"  /><span id="spe03">输入必须为中文</span>
+        		<!--  <h6><span>名(中文)</span><img src="img/dian.png"/></h6>
+        		 <input type="text" class="inputBig" /> -->
         		 <h6><span>姓(拼音)</span><img src="img/dian.png"/></h6>
         		 <input type="text" class="inputBig"  />
         		 <h6><span>名(拼音)</span><img src="img/dian.png"/></h6>
         		 <input type="text" class="inputBig" />
         		 <h6><span>电子邮件</span><img src="img/dian.png"/></h6>
-        		 <input type="text" class="inputBig01" />
+        		 <input type="text" class="inputBig01" id="emailId" /><span id="spe02"></span>
         		 <h6><span>确认电子邮件</span><img src="img/dian.png"/></h6>
         		 <input type="text" class="inputBig01"/>
         		 <h6><span>密码</span><img src="img/dian.png"/></h6>
-        		 <input type="text" class="inputBig01" />
+        		 <input id="passWord01" type="text" class="inputBig01" onblur="testf()"/><span id="spe"></span>
         		 <h6><span>确认密码</span><img src="img/dian.png"/></h6>
         		 <input type="text" class="inputBig01" />
         		  <h6><span>字词验证</span><img src="img/dian.png"/></h6>
