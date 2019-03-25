@@ -1,0 +1,224 @@
+body, p, dl, dd, ul, ol, li, div, h1, h2, h3, h4, h5, h6, form, input, table, tr, td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑",Arial;
+  margin: 0 auto; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+html, body {
+  height: 100%; }
+
+/* 版心 */
+.b-center {
+  width: 1220px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+/* header */
+.header {
+  width: 100%; }
+
+.head {
+  height: 74px;
+  /* background: pink; */ }
+
+.head-top {
+  height: 74px; }
+
+.logo img {
+  float: left; }
+
+/*footer*/
+.footer {
+  width: 100%; }
+
+/*content*/
+.content {
+  width: 100%;
+  margin-top: 20px;
+  background: #efefef;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.cont {
+  position: relative; }
+
+.kong {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  background: white;
+  text-align: center;
+  display: none; }
+  .kong h1 {
+    padding-top: 100px; }
+  .kong a {
+    display: inline-block;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    line-height: 50px;
+    margin-top: 30px; }
+    .kong a:hover {
+      opacity: .8; }
+
+.goods-box {
+  width: 100%;
+  background: #fff;
+  padding: 20px 10px 40px 10px;
+  overflow: hidden; }
+
+.g-title {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  overflow: hidden; }
+  .g-title h3 {
+    float: left; }
+  .g-title span {
+    float: right;
+    margin-right: 30px; }
+
+.g-tab {
+  width: 1172px;
+  border-collapse: collapse;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6; }
+  .g-tab tr {
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle; }
+    .g-tab tr th, .g-tab tr td {
+      box-sizing: border-box;
+      padding: 10px;
+      float: left;
+      border-right: 1px solid #dee2e6; }
+    .g-tab tr td {
+      height: 100px; }
+  .g-tab .g-checkBtn {
+    width: 85px; }
+    .g-tab .g-checkBtn .checkSelect {
+      margin-left: 15px; }
+  .g-tab .g-info {
+    width: 500px; }
+    .g-tab .g-info .g-img, .g-tab .g-info img {
+      width: 80px;
+      height: 80px;
+      float: left;
+      margin-right: 40px;
+      margin-left: 10px; }
+    .g-tab .g-info p {
+      line-height: 40px; }
+  .g-tab .g-price, .g-tab .g-sum, .g-tab .g-operate {
+    width: 130px; }
+  .g-tab .g-operate a {
+    display: inline-block;
+    width: 58px;
+    height: 38px;
+    background: #dc3545;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #dc3545;
+    border-radius: 5px; }
+    .g-tab .g-operate a:hover {
+      background: #b32935; }
+  .g-tab .g-count {
+    width: 195px; }
+    .g-tab .g-count .sub-btn, .g-tab .g-count .add-btn {
+      display: inline-block;
+      width: 35px;
+      height: 40px;
+      background: white;
+      float: left;
+      border: 1px solid #6c757d;
+      cursor: pointer; }
+      .g-tab .g-count .sub-btn:hover, .g-tab .g-count .add-btn:hover {
+        background: #6c757d;
+        color: white; }
+    .g-tab .g-count .sub-btn {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px; }
+    .g-tab .g-count .add-btn {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    .g-tab .g-count .num {
+      display: inline-block;
+      width: 80px;
+      height: 38px;
+      outline: none;
+      float: left;
+      border: 1px solid #a1a1a7;
+      padding-left: 20px; }
+
+.g-gray {
+  width: 100%;
+  height: 10px;
+  background: #efefef;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.g-sale {
+  width: 1170px;
+  height: 100px;
+  padding-left: 25px;
+  background: #e2e3e5;
+  color: #383d41;
+  border-radius: 10px; }
+  .g-sale h1, .g-sale h3 {
+    margin-top: 10px; }
+
+.g-totalMoney {
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px; }
+  .g-totalMoney p {
+    margin-bottom: 20px; }
+    .g-totalMoney p .total {
+      display: inline-block;
+      width: 45px; }
+    .g-totalMoney p .goodscounts, .g-totalMoney p .buy-counts {
+      color: red;
+      font-weight: 900; }
+  .g-totalMoney .shop {
+    display: inline-block;
+    width: 90px;
+    height: 38px;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    background: #6c757d;
+    border-radius: 5px; }
+    .g-totalMoney .shop:hover {
+      background: #4a4f54; }
+  .g-totalMoney .buy {
+    display: inline-block;
+    width: 75px;
+    height: 38px;
+    background: #dc3545;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 5px; }
+    .g-totalMoney .buy:hover {
+      background: #b32935; }
