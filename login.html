@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <body> 
 	 <!-- header -->
      <div class="header_biggest">
@@ -472,25 +473,25 @@
         <div class="bannerTop">
         	  <span> 服 务 </span>  /  <span> 我 的 卡 地 亚 </span> /  <span> USER PAGES </span>
         </div>
-        <H2>登录</H2>
+        <H2 id="loginok">登录</H2>
         <div class="text">
         	<div class="textLeft">
         		 <h3>已注册？</h3>
         		 <p>若您已于卡地亚注册,请在此登录：</p>
         		 <hr/>
         		 <h6><span>电邮</span><img src="img/dian.png"/></h6>
-        		 <input type="text" />
+        		 <input   id="loginDown" type="text" />
         		 <h6><span>密码</span><img src="img/dian.png"/></h6>
-        		 <input type="text" />
+        		 <input  id="loginDown02"  type="text" />
         		 <div class="box01"><span class="span01"></span><a href="#">忘记密码?</a></div>
         		  <hr/>
         		  <h6><span>字词验证</span><img src="img/dian.png"/></h6>
         		  <ul>
-        		  	   <li><input id="box02" type="text" class="box02"></li>
+        		  	   <li><input id="box02"  class="box02"></li>
         		  	   <li><input id="text01" type="button" value="Refresh"/></li>
         		  	   <li><input id="text02" type="text" placeholder="请输入验证码" /><span id="specialSpan"></span></li>
         		  </ul>
-        		  <span class="span02"></span><input id="text03" text="submit" value="登录"/>
+        		  <input id="text03" type="button" value="登录"/>
         	</div>
         	<div class="textRight">
         		 <h2>建立您的账户</h2>
@@ -503,7 +504,7 @@
         		      <input class="text04" type="radio" name="a" >小姐
         		  </div>
         		  <h6><span>姓名(中文)</span><img src="img/dian.png"/></h6>
-              <input id="userId" type="text" class="inputBig"  /><span id="spe03">输入必须为中文</span>
+              <input id="userId" type="text" class="inputBig"  /><span id="spe03">必须为中文</span>
         		<!--  <h6><span>名(中文)</span><img src="img/dian.png"/></h6>
         		 <input type="text" class="inputBig" /> -->
         		 <h6><span>姓(拼音)</span><img src="img/dian.png"/></h6>
@@ -528,7 +529,7 @@
         		      <li><input type="checkbox"> 我希望收到卡地亚的线上通讯 </li>
         		      <li><input type="checkbox">我已阅读并接受隐私声明<img src="img/dian02.png"/></li>
         		  </ul>
-        		  <span class="span02"></span><input id="text03" type="submit" value="登录"/>
+        		  <input id="text07"  type="button" value="注册"/>
         	</div>
         </div>
     </div>
